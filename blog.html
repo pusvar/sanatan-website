@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spiritual Blog | Sanatan 16 Sanskar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo.jpg" alt="Sanatan 16 Sanskar Logo" id="site-logo" style="border-radius: 8px;">
+            </a>
+                                    <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="services.html">Services</a>
+                <a href="gallery.html">Gallery</a>
+                <div class="dropdown">
+                    <a href="#" class="dropbtn">Cities <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#">Varanasi</a>
+                    </div>
+                </div>
+                <a href="index.html#services">16 Sanskars</a>
+                <a href="calendar.html">Fasts & Festivals</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+        </header>
+    <!-- Global Availability Banner -->
+    <div style="background-color: var(--primary-saffron); color: white; text-align: center; padding: 6px 15px; font-size: 0.95rem; font-weight: 500; letter-spacing: 0.5px; width: 100%; box-shadow: 0 2px 4px rgba(0,0,0,0.1); z-index: 99; position: relative;">
+        This service is currently available only in Varanasi (Kashi)
+    </div>
+
+    <section class="page-header bg-saffron-light" style="padding: 100px 0 60px; text-align: center;">
+        <div class="container">
+            <h1 class="hero-title" style="color: var(--primary-saffron); font-size: 3rem;">Gyan Ganga (Knowledge Center)</h1>
+            <p class="hero-subtitle" style="color: var(--text-muted);">Articles on Sanatan Traditions, Muhurat, and Rituals.</p>
+        </div>
+    </section>
+
+    <section class="blog section">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 40px;">
+                
+                <!-- Blog: Rudrabhishek -->
+                <div class="blog-card" style="background: var(--bg-white); border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-sm);">
+                    <div style="height: 200px; background: url('assets/images/cover-bg.jpg') center/cover;"></div>
+                    <div style="padding: 24px;">
+                        <span style="color: var(--primary-saffron); font-size: 0.9rem; font-weight: 600; text-transform: uppercase;">Shravan Maas Special</span>
+                        <h4 style="font-size: 1.3rem; margin: 10px 0;">The Significance of Rudrabhishek</h4>
+                        <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 20px;">The sacred month of Shravan (Sawan) is considered the most auspicious time for the worship of Lord Shiva.</p>
+                        <a href="rudrabhishek-sawan.html" style="color: var(--primary-saffron); font-weight: 600;">Read Article <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer snippet -->
+    <footer class="footer" style="padding: 40px 0; text-align: center;">
+        <p>&copy; 2026 Sanatan 16 Sanskar. All rights reserved.</p>
+    </footer>
+<!-- Vapi AI Voice Agent -->
+<script>
+  (function (d, t) {
+    var g = document.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    g.src = "https://cdn.jsdelivr.net/gh/VapiAI/html-script-tag@latest/dist/assets/index.js";
+    g.defer = true;
+    g.async = true;
+    s.parentNode.insertBefore(g, s);
+
+    g.onload = function () {
+      window.vapiSDK.run({
+        apiKey: "3017e6a7-2574-4f4e-818a-f55ddb509605",
+        assistant: "0dae3740-48bd-47fc-995d-f53e81c0038f",
+        config: {
+          position: "bottom-left",
+          offset: "40px",
+          width: "50px",
+          height: "50px",
+          idle: {
+            color: "rgb(238, 114, 20)",
+            type: "pill",
+            title: "Talk to AI Pandit",
+            subtitle: "Ask about 16 Sanskars",
+            icon: "https://unpkg.com/lucide-static@0.321.0/icons/phone.svg",
+          },
+          loading: {
+            color: "rgb(238, 114, 20)",
+            type: "pill",
+            title: "Connecting...",
+            subtitle: "Please wait",
+            icon: "https://unpkg.com/lucide-static@0.321.0/icons/loader-2.svg",
+          },
+          active: {
+            color: "rgb(255, 0, 0)",
+            type: "pill",
+            title: "Call is active...",
+            subtitle: "Tap to end",
+            icon: "https://unpkg.com/lucide-static@0.321.0/icons/phone-off.svg",
+          },
+        },
+      });
+    };
+  })(document, "script");
+</script>
+</body>
+</html>
+
